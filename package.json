@@ -1,0 +1,32 @@
+{
+  "name": "event-ticket-booking",
+  "version": "1.0.0",
+  "description": "Build Your Own Ticket Booking Platform with NodeJS and Coinbase Commerce",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentiroleh/event-ticket-booking.git"
+  },
+  "keywords": [
+    "nodejs",
+    "coinbase",
+    "cryptocurrencies"
+  ],
+  "author": "Vincent Iroleh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vincentiroleh/event-ticket-booking/issues"
+  },
+  "homepage": "https://github.com/vincentiroleh/event-ticket-booking#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
